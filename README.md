@@ -87,3 +87,208 @@ No README do seu repositório, inclua:
 ## 💬 Conclusão
 
 Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+
+## Criação
+Visão do MVP – App de Finanças por Conversa
+
+Proposta central:
+Um aplicativo que funciona como um Agente Financeiro conversacional, onde o usuário registra gastos, define metas e recebe orientações apenas conversando, sem formulários complexos.
+
+O MVP deve provar 3 coisas rapidamente:
+
+As pessoas conseguem registrar gastos facilmente via conversa
+
+A categorização automática funciona “bem o suficiente”
+
+As dicas geram valor real (sensação de controle + aprendizado)
+
+📱 Principais Telas do MVP
+1️⃣ Tela de Boas-vindas / Onboarding Conversacional
+
+Objetivo: reduzir atrito e criar confiança.
+
+Fluxo:
+
+Mensagem do Agente Financeiro:
+
+“Oi! Vou te ajudar a organizar seu dinheiro sem complicação 😊”
+
+Perguntas simples:
+
+“Você quer só acompanhar gastos ou também criar metas?”
+
+“Prefere relatórios semanais ou mensais?”
+
+👉 Nada de cadastro longo. Nome + pronto.
+
+2️⃣ Tela Principal – Chat Financeiro
+
+Essa é o coração do app ❤️
+
+Funções:
+
+Registrar gastos em linguagem natural
+
+“Gastei 45 reais no mercado”
+
+“Paguei aluguel hoje, 1200”
+
+Registrar receitas
+
+“Recebi meu salário, 3200”
+
+Perguntas rápidas:
+
+“Quanto gastei com comida esse mês?”
+
+“Como estou indo com minhas metas?”
+
+Feedback imediato:
+
+Confirmação do gasto
+
+Categoria sugerida
+
+Possibilidade de corrigir (“Não era lazer, era transporte”)
+
+3️⃣ Tela de Metas Financeiras
+
+Objetivo: dar direção, não pressão.
+
+Funcionalidades:
+
+Criar metas simples:
+
+“Quero guardar 300 por mês”
+
+“Quero economizar para uma viagem”
+
+Visual leve:
+
+Barra de progresso
+
+Frases motivacionais do Agente
+
+Exemplo:
+
+“Você já cumpriu 40% da meta este mês. Nada mal 😎”
+
+4️⃣ Tela de Relatórios Simples
+
+Nada de gráficos assustadores.
+
+Conteúdo:
+
+Gastos por categoria (visual simples)
+
+Comparação:
+
+Esse mês vs mês passado
+
+Destaques automáticos:
+
+“Você gastou mais com delivery este mês”
+
+“Parabéns! Seus gastos com transporte caíram”
+
+5️⃣ Tela de Dicas do Agente Financeiro
+
+Educação + personalização.
+
+Exemplos de dicas:
+
+“Percebi muitos gastos pequenos com café. Que tal definir um limite semanal?”
+
+“Se você reduzir R$5 por dia, no fim do mês sobra R$150.”
+
+Sempre em tom amigável, nunca julgador.
+
+⚙️ Recursos Essenciais do MVP
+🔹 Inteligência Conversacional
+
+Interpretação de linguagem natural (gastos, receitas, perguntas)
+
+Extração de:
+
+valor
+
+data (explícita ou implícita)
+
+categoria
+
+🔹 Categorização Automática
+
+Categorias iniciais:
+
+Alimentação
+
+Moradia
+
+Transporte
+
+Lazer
+
+Contas fixas
+
+Outros
+
+Possibilidade de correção manual (aprendizado futuro)
+
+🔹 Motor de Regras Simples
+
+Detectar padrões básicos:
+
+gastos recorrentes
+
+categorias dominantes
+
+Gerar dicas baseadas nesses padrões
+
+🔹 Armazenamento Seguro
+
+Histórico de transações
+
+Metas
+
+Preferências do usuário
+
+🧪 Esboço de Validação Inicial (Muito Importante)
+🎯 Hipótese 1
+
+“Usuários conseguem registrar gastos com menos esforço do que em apps tradicionais.”
+
+Validação:
+
+Teste com 10–20 pessoas
+
+Métrica:
+
+Quantos gastos registrados na primeira semana
+
+🎯 Hipótese 2
+
+“As dicas geram sensação de controle financeiro.”
+
+Validação:
+
+Pergunta direta no app:
+
+“Isso te ajudou a entender melhor seus gastos?”
+
+Métrica:
+
+respostas positivas
+
+retorno ao app após 7 dias
+
+🎯 Hipótese 3
+
+“Relatórios simples são suficientes no início.”
+
+Validação:
+
+Ver quantas vezes a tela de relatórios é acessada
+
+Feedback qualitativo (“O que você sentiu falta?”)
+
+
